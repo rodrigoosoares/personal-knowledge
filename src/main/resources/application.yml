@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://admin:admin@localhost:27017/knowledge_app?authSource=admin
+
+security:
+  app:
+    authorization:
+      user: admin
+      password: nimda

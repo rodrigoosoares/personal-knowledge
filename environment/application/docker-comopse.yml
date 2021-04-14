@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+    application:
+      build:
+        context: ../..
+        dockerfile: environment/application/Dockerfile
+      ports:
+      - 9080:8080
+      container_name: personal_knowledge_application-docker
